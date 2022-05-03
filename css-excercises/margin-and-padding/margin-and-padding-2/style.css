@@ -1,0 +1,39 @@
+body {
+  background: #eee;
+  font-family: sans-serif;
+}
+
+.card {
+  width: 400px;
+  background: #fff;
+  margin: 16px auto;
+  padding: 8px; /* 1: 8px between card border and title */
+  
+}
+
+.title {
+  background: #e3f4ff;
+  font-size: 16px; /* 3: Add font size on title */
+  padding: 8px; /* 4: 8px between title and border of blue box */
+  margin: 0px; /* 1: Remove default margin title */
+}
+
+.content {
+  background: #e3f4ff;
+  margin: 8px 0px; /* 2: 8px between blue boxes */
+  padding: 16px 8px; /* 5: 16px vertical and 8px horizontal */
+}
+
+.button-container {
+  background: #e3f4ff;
+  text-align: center; /* 6: Centered */
+  padding: 8px; /* 6: 8px padding */
+}
+
+button {
+  background: white;
+  border: 1px solid #eee;
+  display: block; /* 7: Own line */
+  margin: auto; /* 6: Centered */
+  padding: 8px 24px; /* 8: 8px vertical and 24 horizontal */
+}

@@ -1,0 +1,76 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
+  min-height: 100vh;
+  display: flex; /* 3 */ /* */
+  flex-direction: column; /* 3 */ /* */
+  justify-content: space-between; /* 3 */
+ 
+}
+
+.header {
+  height: 72px;
+  background: darkmagenta;
+  color: white;
+  font-size: 32px; /* 1 */ /* */
+  font-weight: 900; /* 1 */ /* */
+  display: flex; /* 2 */ /* */
+  align-items: center; /* 2 */ /* */
+  padding-left: 16px; /* 2 */ /* */
+}
+
+.footer {
+  height: 72px;
+  background: #eee;
+  color: darkmagenta;
+  display: flex; /* 4 */ /* */
+  justify-content: center; /* 4 */ /* */
+  align-items: center; /* 4 */ /* */
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  flex: 1; /* FALTOU: Esticou o conteúdo até as bordas */
+}
+
+.sidebar {
+  width: 300px;
+  background: royalblue;
+  flex-shrink: 0; /* 6 */ /* */
+  padding: 16px; /* 8 */ /* */
+
+}
+
+.cards {
+  display: flex; /* 10 */ /* */
+  flex-flow: row wrap; /* */
+  padding: 48px;
+  gap: 32px; /* */
+  
+}
+
+.card {
+  border: 1px solid #eee;
+  box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+  border-radius: 4px;
+  padding: 16px; /* 9 */ /* */
+  width: 300px; /* */
+  flex-shrink: 0; 
+}
+
+ul {
+  list-style: none; /* */
+  padding: 0; /* */
+  margin: 0; /* */
+}
+
+li {
+  padding-bottom: 16px; /* */
+}
+
+a {
+  font-size: 24px; /* 7 */ /* */
+  color: #fff;  /* 7 */ /* */
+  text-decoration: none;  /* 7 */ /* */
+}
